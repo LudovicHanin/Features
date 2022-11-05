@@ -41,25 +41,26 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\Unity\Perso\Features\Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll" />
+    <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FishNet\Example\All\Prediction\Rigidbody\Scripts\RigidbodyPrediction.cs" />
-     <Compile Include="Assets\FishNet\Example\All\SceneManager\Scripts\SceneUnloaderExample.cs" />
-     <Compile Include="Assets\FishNet\Example\All\CustomSyncType\Component State Sync\ComponentSyncStateBehaviour.cs" />
-     <Compile Include="Assets\FishNet\Example\All\CustomSyncType\Component State Sync\ComponentStateSync.cs" />
-     <Compile Include="Assets\FishNet\Example\All\Authenticator\Scripts\Broadcasts.cs" />
-     <Compile Include="Assets\FishNet\Example\All\CustomSyncType\Custom Struct Sync\StructySync.cs" />
-     <Compile Include="Assets\FishNet\Example\All\CustomSyncType\Custom Struct Sync\StructSyncBehaviour.cs" />
-     <Compile Include="Assets\FishNet\Example\All\SceneManager\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\FishNet\Example\All\CustomSyncType\Component State Sync\AMonoScript.cs" />
-     <Compile Include="Assets\FishNet\Example\All\Prediction\CharacterController\Scripts\CharacterControllerPrediction.cs" />
-     <Compile Include="Assets\FishNet\Example\All\SceneManager\Scripts\SceneLoaderExample.cs" />
-     <Compile Include="Assets\FishNet\Example\Scripts\NetworkHudCanvases.cs" />
-     <Compile Include="Assets\FishNet\Example\All\Authenticator\Scripts\HostAuthenticator.cs" />
-     <Compile Include="Assets\FishNet\Example\All\Prediction\Transform\Scripts\TransformPrediction.cs" />
-     <Compile Include="Assets\FishNet\Example\All\Authenticator\Scripts\PasswordAuthenticator.cs" />
-     <None Include="Assets\FishNet\Example\FishNet.Example.asmdef" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\Prediction\Rigidbody\Scripts\RigidbodyPrediction.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\SceneManager\Scripts\SceneUnloaderExample.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\Prediction\CharacterController\Scripts\CharacterControllerPrediction.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\Prediction\Transform\Scripts\TransformPrediction.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\CustomSyncType\Component State Sync\ComponentSyncStateBehaviour.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\Authenticator\Scripts\Broadcasts.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\SceneManager\Scripts\SceneLoaderExample.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\CustomSyncType\Component State Sync\ComponentStateSync.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\CustomSyncType\Custom Struct Sync\StructSyncBehaviour.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\SceneManager\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\CustomSyncType\Component State Sync\AMonoScript.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\Authenticator\Scripts\PasswordAuthenticator.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\CustomSyncType\Custom Struct Sync\StructySync.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\All\Authenticator\Scripts\HostAuthenticator.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Example\Scripts\NetworkHudCanvases.cs" />
+     <None Include="Assets\5_Imports\FishNet\Example\FishNet.Example.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -358,7 +359,7 @@
      <HintPath>D:\Unity\Perso\Features\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="FishNet.CodeAnalysis">
-     <HintPath>D:\Unity\Perso\Features\Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
+     <HintPath>D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

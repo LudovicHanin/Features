@@ -41,32 +41,33 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\Unity\Perso\Features\Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll" />
+    <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\RigidbodyState.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\NetworkTransform\Editor\NetworkTransformEditor.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\PredictedObject.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Utility\DefaultScene.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\NetworkTransform\NetworkTransform.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Utility\PingDisplay.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\DesyncSmoother.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\PredictedRigidbody.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Utility\BandwidthDisplay.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\PredictedRigidbody2D.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\NetworkTransform\SynchronizedProperty.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Spawning\PlayerSpawner.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\PredictedRigidbodyBase.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\PredictedObject.Rigidbodies.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\ReaderAndWriters\ScenedReaderWriters.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\ReaderAndWriters\ConnectionReaderWriters.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\NetworkAnimator\NetworkAnimator.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\NetworkAnimator\Editor\NetworkAnimatorEditor.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\Editor\PredictedObjectEditor.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\OfflineRigidbody.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\RigidbodyPauser.cs" />
-     <Compile Include="Assets\FishNet\Runtime\Generated\Component\Prediction\RigidbodyType.cs" />
-     <None Include="Assets\FishNet\Runtime\Generated\FishNet.Generated.asmdef" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\RigidbodyState.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Utility\PingDisplay.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\ReaderAndWriters\ScenedReaderWriters.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\NetworkTransform\Editor\NetworkTransformEditor.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\DesyncSmoother.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\NetworkTransform\SynchronizedProperty.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\PredictedRigidbodyBase.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\ReaderAndWriters\ConnectionReaderWriters.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Utility\DefaultScene.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Utility\BandwidthDisplay.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\NetworkAnimator\Editor\NetworkAnimatorEditor.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\PredictedObject.Rigidbodies.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\RigidbodyType.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\NetworkTransform\NetworkTransform.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\PredictedRigidbody.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\PredictedRigidbody2D.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\NetworkAnimator\NetworkAnimator.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Spawning\PlayerSpawner.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\OfflineRigidbody.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\PredictedObject.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\Editor\PredictedObjectEditor.cs" />
+     <Compile Include="Assets\5_Imports\FishNet\Runtime\Generated\Component\Prediction\RigidbodyPauser.cs" />
+     <None Include="Assets\5_Imports\FishNet\Runtime\Generated\FishNet.Generated.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -365,7 +366,7 @@
      <HintPath>D:\Unity\Perso\Features\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="FishNet.CodeAnalysis">
-     <HintPath>D:\Unity\Perso\Features\Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
+     <HintPath>D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
