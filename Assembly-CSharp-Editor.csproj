@@ -41,7 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll" />
     <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -340,14 +339,14 @@
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>D:\Unity\Perso\Features\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="FishNet.CodeAnalysis">
+     <HintPath>D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
+     </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>D:\Unity\Perso\Features\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\Unity\Perso\Features\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="FishNet.CodeAnalysis">
-     <HintPath>D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Unity\Perso\Features\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -847,6 +846,10 @@
       <Project>{1621e8d6-8eeb-4a32-be92-c0362ce97bb4}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="FishNet.Codegen.Cecil.csproj">
+      <Project>{5f9401e7-d381-d4d2-cce1-4d53a1282992}</Project>
+      <Name>FishNet.Codegen.Cecil</Name>
+    </ProjectReference>
     <ProjectReference Include="FishNet.Example.csproj">
       <Project>{912fc996-65c7-b1eb-1330-ccfa1c5db1c2}</Project>
       <Name>FishNet.Example</Name>
@@ -858,10 +861,6 @@
     <ProjectReference Include="FishNet.Runtime.csproj">
       <Project>{5a5a5438-812a-8e3c-667a-56c55f1f6a73}</Project>
       <Name>FishNet.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="FishNet.Codegen.Cecil.csproj">
-      <Project>{5f9401e7-d381-d4d2-cce1-4d53a1282992}</Project>
-      <Name>FishNet.Codegen.Cecil</Name>
     </ProjectReference>
     <ProjectReference Include="FishNet.Generated.csproj">
       <Project>{0baf94e0-4052-18e3-a165-8b9d61176fed}</Project>

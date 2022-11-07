@@ -41,7 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll" />
     <Analyzer Include="D:\Unity\Perso\Features\Assets\5_Imports\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>

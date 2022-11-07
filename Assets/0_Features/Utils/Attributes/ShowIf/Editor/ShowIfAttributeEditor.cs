@@ -27,7 +27,7 @@ namespace _0_Features.Utils.Attributes.ShowIf.Editor
 
             if (_conditionField == null)
             {
-                Debug.LogError($"Name of the condition not found {_showIfAttribute.ConditionPropertyName} in {_showIfAttribute.GetType()}");
+                UnityEngine.Debug.LogError($"Name of the condition not found {_showIfAttribute.ConditionPropertyName} in {_showIfAttribute.GetType()}");
                 return;
             }
         
